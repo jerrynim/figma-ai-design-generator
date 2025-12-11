@@ -1,0 +1,15 @@
+{
+  "name": "figma-ui-make",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prettier:fix": "eslint '**/*.{js,jsx,ts,tsx}' --fix; prettier '**/*.{json,yaml,md,ts,tsx}' --write",
+    "knip": "knip"
+  },
+  "devDependencies": {
+    "knip": "^5.73.3",
+    "prettier": "^3.6.2",
+    "typescript": "^5.5.4"
+  }
+}

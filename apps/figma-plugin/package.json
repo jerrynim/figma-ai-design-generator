@@ -1,0 +1,27 @@
+{
+  "name": "@figma/plugin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build -c ./vite.config.plugin.ts",
+    "build:ui": "vite build -c ./vite.config.ui.ts",
+    "dev": "vite build -c ./vite.config.plugin.ts --watch",
+    "dev:ui": "vite build -c ./vite.config.ui.ts --watch"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.117.0",
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react-swc": "^4.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^7.1.2",
+    "vite-plugin-singlefile": "^2.3.0",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}

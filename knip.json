@@ -1,0 +1,28 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "workspaces": {
+    ".": {
+      "entry": []
+    },
+    "apps/claude-code-figma": {
+      "entry": [
+        "app/**/*.{ts,tsx}",
+        "components/**/*.{ts,tsx}",
+        "hooks/**/*.{ts,tsx}",
+        "lib/**/*.{ts,tsx}"
+      ],
+      "project": ["**/*.{ts,tsx}"],
+      "ignore": ["type-assets/**", "templates/**", "scripts/**", "memory/**"]
+    },
+    "apps/figma-plugin": {
+      "entry": [
+        "src/code.ts",
+        "src/ui/main.tsx"
+      ],
+      "project": ["src/**/*.{ts,tsx}"]
+    }
+  },
+  "ignoreDependencies": ["eslint-config-next", "eslint"],
+  "ignoreBinaries": ["eslint"]
+}
+

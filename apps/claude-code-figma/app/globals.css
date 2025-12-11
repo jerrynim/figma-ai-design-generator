@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+ font-family: Pretendard;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+pre{
+ 
+  word-break: break-word;
+  white-space: break-spaces;
+}
+pre >div{
+  background-color: rgba(0,0,0,0.03);
+  border-radius: 4px;
+   word-break: break-word;
+  white-space: break-spaces;
+}
+code {
+  font-size: 13px;
+  line-height: 16px;
+  word-break: break-word;
+  white-space: break-spaces;
+
+}
+

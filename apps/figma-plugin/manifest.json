@@ -1,0 +1,16 @@
+{
+  "name": "Figma AI UI Generator",
+  "id": "figma-ai-ui-generator",
+  "api": "1.0.0",
+  "main": "./dist/code.js",
+  "ui": "./dist/index.html",
+  "editorType": ["dev", "figma"],
+  "capabilities": ["inspect", "vscode"],
+  "documentAccess": "full",
+  "enableProposedApi": false,
+  "permissions": ["teamlibrary"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "AI API calls via GitHub Pages proxy to bypass CORS limitations"
+  }
+}
