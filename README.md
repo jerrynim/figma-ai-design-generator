@@ -9,7 +9,7 @@ AI를 활용하여 Figma 디자인을 자연어 명령으로 생성하고 수정
 
 <div align="center">
   <img src="images/image2.png" alt="플러그인 동작 화면 2" width="600" />
-  <p><em>생성된 로그인 폼 디자인</em></p>
+  <p><em>생성된 로그인 폼 디자인 - 디자인 시스템 제거 버전 </em></p>
 </div>
 
 ## 개요
